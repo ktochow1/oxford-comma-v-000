@@ -7,6 +7,18 @@ def oxford_comma(array)
 end
 end
 
+def oxford_comma(array)
+   if array.length < 2
+    return array[0]
+  elsif array.length == 2
+    return array.join(" and ")
+  else
+      array[array.length - 1] = "and #{array[array.length - 1]}"
+      array = array.join(", ")
+      return array
+  end
+end
+
 
   # def assign_rooms(list_of_speaker_names)
   #     room_assignments_holder = []
