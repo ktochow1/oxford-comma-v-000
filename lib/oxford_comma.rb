@@ -5,7 +5,7 @@ def oxford_comma(array)
   array.join(", ")
   
 end
-end
+end #my approach
 
 def oxford_comma(array)
    if array.length < 2
@@ -17,7 +17,7 @@ def oxford_comma(array)
       array = array.join(", ")
       return array
   end
-end
+end #jorge's approach
 
 
   # def assign_rooms(list_of_speaker_names)
