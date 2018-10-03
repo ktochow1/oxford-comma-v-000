@@ -1,11 +1,11 @@
-# def oxford_comma(array)
-#   if array[array.length < 2] puts array
-#   elsif array[array.length >= 2] puts array.join("and")
-#   elsif array[array.length - 1] = "and #{array[array.length - 1]}"
-#   array.join(", ")
+def oxford_comma(array)
+  if array[array.length < 2] puts array
+  elsif array[array.length >= 2] puts array.join("and")
+  elsif array[array.length - 1] = "and #{array[array.length - 1]}"
+  array.join(", ")
   
-# end
-# end
+end
+end
 
 
   # def assign_rooms(list_of_speaker_names)
